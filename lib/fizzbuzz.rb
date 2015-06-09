@@ -4,5 +4,5 @@ def fizzbuzz(number)
   		'fizzbuzz' => (number % 15 == 0) 
   }
 
-  h.key(true)
+  h.key(true) || number
 end
